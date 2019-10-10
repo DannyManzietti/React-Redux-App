@@ -16,7 +16,7 @@ const App = ({ getCoins, coinData, isFetching }) => {
 
   return (
     <div className="App">
-      <h2>Generation 1 Pokemon Cards</h2>
+      <h2>Pokemon Cards</h2>
       <div className="card-list">
         {coinData.map(item => {
           return (
